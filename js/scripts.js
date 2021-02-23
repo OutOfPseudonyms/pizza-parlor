@@ -46,11 +46,14 @@ $(document).ready(function () {
       let currentTopping = $(this).val();
       pizzaToppings.push(currentTopping);
     });
-    let userPizza = new Pizza(pizzaSize, pizzaToppings);
-    console.log(pizzaSize, pizzaToppings);
-    $('pizza-parlor-form').hide();
+    let userPizza = new Pizza(pizzaSize, pizzaToppings);    // create a pizza
+    userPizza.calculateSizePrice();                         // calculate the size price
+    userPizza.calculateToppingPrice();                      // calculate the toppings price
+
+    $('#pizza-parlor-form').hide();
+    $("#receipt").show();
+    $("#receipt-size").text(userPizza.pizzaSize);
+    $("#receipt-toppings").text(userPizza.pizzaToppings);
+    $("#receipt-price").text(`$${userPizza.price}`);
   })
-  // $("#order").click(function () {
-  //   const 
-  // })
-})
+});
