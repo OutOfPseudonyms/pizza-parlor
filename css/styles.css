@@ -1,0 +1,26 @@
+body {
+  background-color: orangered;
+  color: #261dcf;
+  font-size: large;
+}
+
+#receipt {
+  display: none;
+  text-align: center;
+}
+
+#header-1 {
+  margin: 20px;
+}
+
+#pizza-size {
+  margin-left: 60px;
+}
+
+#pizza-toppings {
+  margin-left: 40px;
+}
+
+.btn {
+  margin-left: 20px;
+}
