@@ -13,18 +13,18 @@
   <div class="container">
     <form id="pizza-parlor-form">
       <h1>Pizza Parlor</h1>
+      <h2 id="header-1">Pizza sizes</h2>
       <div id="pizza-size" class="radio">
-        <h2>Pizza sizes</h2>
-        <input type="radio" id="small" name="pizzaSize" value="small">
+        <input type="radio" id="small" name="pizzaSize" value="small" required="required">
         <label for="small">Small</label><br>
         <input type="radio" id="medium" name="pizzaSize" value="medium">
         <label for="medium">Medium</label><br>
         <input type="radio" id="large" name="pizzaSize" value="large">
         <label for="large">Large</label><br>
       </div>
-      <h2>Pizza Toppings</h2>
+      <h2 id="header-1">Pizza Toppings</h2>
       <div id="pizza-toppings" class="form-group">
-        <input type="checkbox" id="toppings1" name="toppings" value="cheese">
+        <input type="checkbox" id="toppings1" name="toppings" value="cheese" required="required">
         <label for="toppings1"> Cheese</label><br>
         <input type="checkbox" id="toppings2" name="toppings" value="pepperoni">
         <label for="toppings2"> Pepperoni</label><br>
@@ -43,6 +43,7 @@
 
   </div>
   <div id="receipt">
+    <h2> Your order comes out to:</h2>
     <p id="receipt-size"></p>
     <p id="receipt-toppings"></p>
     <p id="receipt-price"></p>
