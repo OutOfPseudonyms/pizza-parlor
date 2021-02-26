@@ -1,6 +1,6 @@
 # _Pizza Parlor_
 
-#### Pizza company website for ordering pizza, {Date of current version}_
+#### Pizza company website for ordering pizza, February 26, 2021_
 
 #### By _**Patrick Swaney**_
 
@@ -26,10 +26,6 @@ The website will allow a customer to order a pizza with the size and toppings th
 * The program calculates the price of the pizza based on size and toppings.
   * __Input__: Large Pizza with Anchovies
   * __Output__: $13,000
-  <!-- Small Pizza = $8.99 
-  Medium Pizza = $10.99
-  Large Pizza = $10,000
-  One topping = $3,000 -->
 
 ## Known Bugs
 
@@ -47,6 +43,6 @@ If you encounter any issues, or have any comments/questions, please email me at 
 
 ### License
 
-Copyright (c) 2020 **_Patrick Swaney_**
+Copyright (c) 2021 **_Patrick Swaney_**
 
 This software is licensed under the MIT license.
